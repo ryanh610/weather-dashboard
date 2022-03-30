@@ -13,3 +13,69 @@ header {
     text-align: center;
     padding: 15px;
 }
+
+.btn {
+    margin: 15px;
+}
+
+.currentInfo {
+    margin: 5px;
+}
+
+.forecastInfo {
+    margin: 10px;
+}
+
+#forecastBox {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.forecastCard {
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-image: linear-gradient( to right, blue, purple);
+    opacity: 0.6;
+    color: white;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.date {
+    margin: 5px;
+}
+
+#mainElements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#searchBox {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+#searchBox {
+    margin: 15px;
+}
+
+#selection {
+    margin: 15px;
+    width: 60%;
+}
+
+#current {
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+#currentCity {
+    margin: 5px;
+}
+
+#forecastTitle {
+    margin: 10px;
+}
