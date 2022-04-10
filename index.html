@@ -11,50 +11,56 @@
     <div id="mainElements">
         <section id="searchBox">
             <h2>Search for a City:</h2>
-            <input class="form-control" id="input" placeholder="Enter a City Name">
-            <button type="button" class="btn btn-primary">Submit</button>
+            <input type="text" class="form-control" id="input" placeholder="Enter a City Name">
+            <input type="submit" class="btn btn-primary" id="submitBtn"></input>
             <div id="history"></div>
         </section>
         <section id="selection">
             <div id="current">
-                <h2 id="currentCity">Philadelphia<span id="currentDate">(03/29/2022)</span></h2>
-                <p class="currentInfo" id="currentTemp">Temp: </p>
-                <p class="currentInfo" id="currentWind">Wind: </p>
-                <p class="currentInfo" id="currentHumid">Humidity: </p>
-                <p class="currentInfo" id="currentUV">UV Index: </p>
+                <h2 id="currentCity"></h2>
+                <img id="currentIcon" src="" alt="icon" />
+                <p class="currentInfo" id="currentTemp"></p>
+                <p class="currentInfo" id="currentWind"></p>
+                <p class="currentInfo" id="currentHumid"></p>
+                <p class="currentInfo" id="currentUV"></p>
             </div>
             <div id="forecast">
                 <h2 id="forecastTitle">5-Day Forecast:</h2>
                 <div id="forecastBox">
                     <div class="forecastCard">
-                        <h5 class="date" id="tomorrowDate">(03/30/2022)</h5>
-                        <p class="forecastInfo" id="tomorrowTemp">Temp: </p>
-                        <p class="forecastInfo" id="tomorrowWind">Wind: </p>
-                        <p class="forecastInfo" id="tomorrowHumid">Humidity: </p>
+                        <h5 class="date" id="tomorrowDate"></h5>
+                        <img id="tomorrowIcon" src="" alt="icon" />
+                        <p class="forecastInfo" id="tomorrowTemp"></p>
+                        <p class="forecastInfo" id="tomorrowWind"></p>
+                        <p class="forecastInfo" id="tomorrowHumid"></p>
                     </div>
                     <div class="forecastCard">
-                        <h5 class="date" id="secondDate">(03/31/2022)</h5>
-                        <p class="forecastInfo" id="secondTemp">Temp: </p>
-                        <p class="forecastInfo" id="secondind">Wind: </p>
-                        <p class="forecastInfo" id="secondHumid">Humidity: </p>
+                        <h5 class="date" id="secondDate"></h5>
+                        <img id="secondIcon" src="" alt="icon" />
+                        <p class="forecastInfo" id="secondTemp"></p>
+                        <p class="forecastInfo" id="secondWind"></p>
+                        <p class="forecastInfo" id="secondHumid"></p>
                     </div>
                     <div class="forecastCard">
-                        <h5 class="date" id="thirdDate">(04/01/2022)</h5>
-                        <p class="forecastInfo" id="thirdTemp">Temp: </p>
-                        <p class="forecastInfo" id="thirdWind">Wind: </p>
-                        <p class="forecastInfo" id="thirdHumid">Humidity: </p>
+                        <h5 class="date" id="thirdDate"></h5>
+                        <img id="thirdIcon" src="" alt="icon" />
+                        <p class="forecastInfo" id="thirdTemp"></p>
+                        <p class="forecastInfo" id="thirdWind"></p>
+                        <p class="forecastInfo" id="thirdHumid"></p>
                     </div>
                     <div class="forecastCard">
-                        <h5 class="date" id="fourthDate">(04/02/2022)</h5>
-                        <p class="forecastInfo" id="fourthTemp">Temp: </p>
-                        <p class="forecastInfo" id="fourthWind">Wind: </p>
-                        <p class="forecastInfo" id="fourthHumid">Humidity: </p>
+                        <h5 class="date" id="fourthDate"></h5>
+                        <img id="fourthIcon" src="" alt="icon" />
+                        <p class="forecastInfo" id="fourthTemp"></p>
+                        <p class="forecastInfo" id="fourthWind"></p>
+                        <p class="forecastInfo" id="fourthHumid"></p>
                     </div>
                     <div class="forecastCard">
-                        <h5 class="date" id="fifthDate">(04/03/2022)</h5>
-                        <p class="forecastInfo" id="fifthTemp">Temp: </p>
-                        <p class="forecastInfo" id="fifthWind">Wind: </p>
-                        <p class="forecastInfo" id="fifthHumid">Humidity: </p>
+                        <h5 class="date" id="fifthDate"></h5>
+                        <img id="fifthIcon" src="" alt="icon" />
+                        <p class="forecastInfo" id="fifthTemp"></p>
+                        <p class="forecastInfo" id="fifthWind"></p>
+                        <p class="forecastInfo" id="fifthHumid"></p>
                     </div>
                 </div>
             </div>
